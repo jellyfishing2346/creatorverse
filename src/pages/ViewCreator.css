@@ -1,0 +1,81 @@
+/* src/pages/ViewCreator.css */
+.view-creator {
+    padding: 2rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: var(--pico-background-color);
+    border-radius: var(--pico-border-radius);
+    box-shadow: var(--pico-box-shadow);
+}
+
+.creator-detail-image {
+    max-width: 100%;
+    height: 300px; /* Fixed height for consistency */
+    object-fit: cover;
+    border-radius: var(--pico-border-radius);
+    margin-bottom: 1.5rem;
+}
+
+.view-creator h2 {
+    margin-bottom: 1rem;
+    color: var(--pico-primary);
+}
+
+.view-creator p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.view-creator a {
+    color: var(--pico-link-color);
+    text-decoration: none;
+}
+.view-creator a:hover {
+    text-decoration: underline;
+}
+
+.view-creator .actions {
+    margin-top: 2rem;
+}
+
+.view-creator .actions .button {
+    margin: 0 0.5rem;
+    /* PicoCSS will style buttons, but you can add custom margins */
+}
+
+/* Add to ViewCreator.css */
+.custom-confirm-dialog {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.custom-confirm-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+/* Add these styles for the dialog buttons */
+.custom-confirm-content button {
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  background: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-confirm-content button.delete-button {
+  background: #e74c3c;
+}
+
+.custom-confirm-content button:hover {
+  opacity: 0.9;
+}
