@@ -77,7 +77,7 @@ Creatorverse is a React app that lets you share and manage your favorite content
 ---
 
 ## Demo
-![Demo](https://stately-raindrop-5637d2.netlify.app/)
+Demo: https://stately-raindrop-5637d2.netlify.app/
 
 --
 
